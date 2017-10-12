@@ -1,17 +1,19 @@
 <?php
+
 namespace app\admin\controller;
 
-use think\Controller;
 
-class Index extends Base
+class News extends Base
 {
+
     public function index()
     {
         return $this->fetch();
     }
 
-    public function welcome()
+    public function add()
     {
-        return 'ggg';
+        return $this->fetch();
     }
+
 }
