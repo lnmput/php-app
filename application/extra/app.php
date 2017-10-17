@@ -2,5 +2,6 @@
 
 
 return [
-    'password_prefix' => 'yangzie'
+    'password_prefix' => 'yangzie',
+    'aeskey' => 'umy'
 ];
